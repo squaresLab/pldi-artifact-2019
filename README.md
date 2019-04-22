@@ -23,7 +23,8 @@ Check out [https://github.com/comby-tools/comby](https://github.com/comby-tools/
 
 # PLDI VM Artifact
 
-If you're interested in producing results consistent with the tables in the paper, please see the VM instructions below. You can download the VM [here](https://zenodo.org/record/2642857#.XL4nkJNKjok). Note: the artifact software is outdated, unmaintained, and less fully featured than the software above.
+If you're interested in producing results consistent with the tables in the paper, please see the VM instructions below.
+Note: the artifact software is outdated, unmaintained, and less fully featured than the software above. To proceed, first [download the VM](https://zenodo.org/record/2642857#.XL4nkJNKjok).
 
 ## VM Getting Started Guide
 
