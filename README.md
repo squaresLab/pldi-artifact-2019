@@ -21,7 +21,7 @@ Check out [https://comby-tools.github.io/comby-ui](https://comby-tools.github.io
 
 Check out [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby) if you're interested in the core implementation and command line tool. 
 
-# PLDI Artifact
+# PLDI VM Artifact
 
 If you're interested in producing results consistent with the tables in the paper, please see the VM instructions below. You can download the VM [here](https://zenodo.org/record/2642857#.XL4nkJNKjok). Note: the artifact software is outdated, unmaintained, and less fully featured than the software above.
 
