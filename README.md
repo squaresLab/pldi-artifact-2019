@@ -1,8 +1,31 @@
-# Pull Requests
+Welcome! This page tells you about code and data related to our paper:
 
-Can be viewed [here](PullRequests.md).
+```
+@inproceedings{vanTonderPLDI2019,
+  author =       {Rijnard {van~Tonder} and Claire {Le~Goues}},
+  title =        {Lightweight Multi-Language Syntax Transformation with Parser Parser Combinators},
+  booktitle =    {Programming Language Design and Implementation},
+  series =       {PLDI '19},
+  year =         {2019},
+  doi =          {10.1145/3314221.3314589},
+}
+```
 
-# VM Getting Started Guide
+# Data
+
+Check out [PullRequests.md](PullRequests.md) for a summary of our merged Pull Requests.
+
+# Comby Tool
+
+Check out [https://comby-tools.github.io/comby-ui](https://comby-tools.github.io/comby-ui/) if you're interested in trying Comby tool in the browser **right now**.
+
+Check out [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby) if you're interested in the core implementation and command line tool. 
+
+# PLDI Artifact
+
+If you're interested in producing results consistent with the tables in the paper, please see the VM instructions below. You can download the VM [here](https://zenodo.org/record/2642857#.XL4nkJNKjok). Note: the artifact software is outdated, unmaintained, and less fully featured than the software above.
+
+## VM Getting Started Guide
 
 - Please import the VM image with virtualbox. It is an Ubuntu-64 image. The following VM configuration is highly recommended:
   - 2 virtual CPUs, Execution Cap to 100%
