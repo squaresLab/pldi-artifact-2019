@@ -1,5 +1,8 @@
-Welcome! This page tells you about code and data related to our paper:
-
+This page tells you about code and data related to our paper on
+[Lightweight Multi-Language Syntax Transformation with Parser Parser Combinators](https://www.cs.cmu.edu/~rvantond/pdfs/ppc-pldi-2019.pdf).
+<details>
+  <summary>Click for Citation</summary>
+  
 ```
 @inproceedings{vanTonderPLDI2019,
   author =       {Rijnard {van~Tonder} and Claire {Le~Goues}},
@@ -10,6 +13,8 @@ Welcome! This page tells you about code and data related to our paper:
   doi =          {10.1145/3314221.3314589},
 }
 ```
+
+</details>
 
 # Data
 
@@ -37,9 +42,12 @@ Note: the artifact software is outdated, unmaintained, and less fully featured t
 Note: this VM was run on a 2.2GHz MacBook Pro (2018). Experiment output *may differ* depending on CPU and speeds, 
 due to timeout settings in our scripts. We have provided expected output. If expected outputs differ wildly, please note it during the evaluation process.
 
-# Step-by-Step Instructions
+## Step-by-Step Instructions
 
-## Artifact Overview
+<details>
+  <summary>Click to Expand Instructions</summary>
+
+### Artifact Overview
 
 The paper evaluation is 2-part, broken down as follows:
 
@@ -77,7 +85,7 @@ The claims from the paper not supported by this artifact are (due to VM restrict
 
 - Fast performance at large scale (§5.1, Table 1, Time column).
 
-## VM Directory structure
+### VM Directory structure
 
 Note: Directory naming and scripts do not currently reflect the (new) tool name. Please ignore naming accordingly.
 
@@ -87,13 +95,13 @@ Note: Directory naming and scripts do not currently reflect the (new) tool name.
 - `table-3`: directory for reproducing results of Table 3
 - Everything else: dependencies needed for the above
 
-## Running Experiments and Viewing Results
+### Running Experiments and Viewing Results
 
-### §5.1, Table 1
+#### §5.1, Table 1
 
 - Simply run `./table-1.sh` to view aggregate statistics for our large experiment. The individual data files are in the `table-1` directory.
 
-### §5.1, Table 2
+#### §5.1, Table 2
 
 - Simply run `./table-2.sh` for all results
 - Expected runtime of VM on 2018 Macbook Pro with recommended configuration: ~30 mins
@@ -124,7 +132,7 @@ We will correct the `node-test-runner` row in the camera ready so that matches i
 
 See the next section for details on inspecting the templates.
 
-### §5.1, Figure 6
+#### §5.1, Figure 6
 
 The templates in Figure 6 may all be viewed in subdirectories of the `~/comby/catalogue`. Each pattern contains a `match` and `rewrite` file corresponding to the Match Template and Rewrite Template columns in Figure 6 respectively. Optionally, the directory may contain a `match_rule` or `rewrite_rule` for matching rules. In order of Figure 6:
 
@@ -155,7 +163,7 @@ Note: tests for equality specified implicitly in Figure 6 (e.g., `(:[1] || :[1])
 
 Note: the Python template in Figure 6 should actually read `elif`, not `else if` (we will correct in the camera ready). Additionally, the alternatie `brace-same-conditional-test` Python pattern appears with braces to account for preprocessing.
 
-### §5.2, Table 2
+#### §5.2, Table 2
 
 - Simply run `./table-3.sh`. Please note: this command will only output the expected results the first time it is run, due to a setup oversight in the VM. Unfortunately we did not have time to correct this and repackage and reupload the VM to our server. Please direct the output to a file and/or create a snapshot VM before running the command if needed. Also ignore the `fatal: Not a git repository...` messages.
 - Expected runtime of VM on 2018 Macbook Pro with recommended configuration: ~40 seconds
@@ -198,3 +206,4 @@ Notes:
 - The parens-guard for scala runs twice to fixpoint on the same result of Scalafmt--unfortunately, we overlooked adding the combined time to our tool. The corrected camera ready version will accurately report the time as 260 ms, the typical combined runtime. This does not change the overall claim or results.
 - Differences are expected for: erlang (erl-tidy adds unneeded resh variables, as noted in paper); calng-tidy (clang-tidy introduces extra whitespace (a newline)); clojure (static method transformation fails, as noted in paper).
 - Line count calculation can be seen by consulting `count.sh` in the respective `lang-comparison` directory under `table-3`.
+</details>
