@@ -1,4 +1,4 @@
-This page tells you about code and data related to our paper on
+This page is about the code and data related to our paper
 [Lightweight Multi-Language Syntax Transformation with Parser Parser Combinators](https://www.cs.cmu.edu/~rvantond/pdfs/ppc-pldi-2019.pdf).
 <details>
   <summary>Click for Citation</summary>
