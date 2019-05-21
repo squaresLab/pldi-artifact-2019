@@ -16,12 +16,6 @@ This page is about the code and data related to our PLDI '19 paper
 
 </details>
 
-# Comby Tool
-
-See [https://comby-tools.github.io/comby-ui](https://comby-tools.github.io/comby-ui/) if you're interested in trying Comby tool in the browser **right now**.
-
-See [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby) if you're interested in the core implementation and command line tool. 
-
 # Data
 
 See [PullRequests.md](PullRequests.md) for a summary of our merged Pull Requests.
