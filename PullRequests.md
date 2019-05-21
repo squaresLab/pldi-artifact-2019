@@ -6,7 +6,7 @@
 - [go, merged](https://github.com/golang/go/pull/28115/files)
 - [cli, merged](https://github.com/urfave/cli/pull/773/files)
 - [rancher, merged](https://github.com/rancher/rancher/pull/16058/files)
-- [kubernetes, open](https://github.com/kubernetes/kubernetes/pull/69639/files)
+- [kubernetes, stale](https://github.com/kubernetes/kubernetes/pull/69639/files)
 - [gorm, merged](https://github.com/jinzhu/gorm/pull/2162/files)
 - [vault, merged](https://github.com/hashicorp/vault/pull/5698/files)
 - [vitess, merged](https://github.com/vitessio/vitess/pull/4342/files)
@@ -65,7 +65,7 @@
 ## Erlang
 - [zotonic, merged](https://github.com/zotonic/zotonic/pull/1946/files)
 - [lasp, merged](https://github.com/lasp-lang/lasp/pull/299/files)
-- [kazoo, open](https://github.com/2600hz/kazoo/pull/5273/files)
+- [kazoo, stale](https://github.com/2600hz/kazoo/pull/5273/files)
 
 ## Python
 - [matplotlib, merged](https://github.com/matplotlib/matplotlib/pull/12495/files)
