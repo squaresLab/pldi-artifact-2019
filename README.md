@@ -16,9 +16,9 @@ This page is about the code and data related to our PLDI '19 paper
 
 </details>
 
-# Comby Tool
+# Want the tool?
 
-New release TBA soon!
+https://github.com/comby-tools/comby
 
 # Data
 
@@ -27,7 +27,7 @@ See [PullRequests.md](PullRequests.md) for a summary of our merged Pull Requests
 # PLDI VM Artifact
 
 If you're interested in producing results consistent with the tables in the paper, please see the VM instructions below.
-Note: the artifact software is outdated, unmaintained, and less fully featured than the upcoming tool release. To proceed, first [download the VM](https://zenodo.org/record/2642857#.XL4nkJNKjok).
+Note: the artifact software is outdated, unmaintained, and less fully featured than the [tool release now supported here](https://github.com/comby-tools/comby).To proceed, first [download the VM](https://zenodo.org/record/2642857#.XL4nkJNKjok).
 
 ## VM Getting Started Guide
 
